@@ -1,4 +1,6 @@
 <p>
   {{quote.name}}
 </p>
-<button (click)= 'quoteComplete(true)'>Done</button>
+<p>Quoted on {{quote.completeDate|date|uppercase}}</p>
+<!-- <button (click)= 'quoteComplete(true)'>Done</button> -->
+<button (click)= 'quoteDelete(true)' class="btn btn-outline-danger">Delete</button>

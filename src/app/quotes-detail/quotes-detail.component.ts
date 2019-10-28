@@ -15,6 +15,10 @@ export class QuotesDetailComponent implements OnInit {
   quoteDone(complete:boolean){
     this.isComplete.emit(complete);
   }
+
+  quoteDelete(complete:boolean){
+    this.isComplete.emit(complete);
+  }
  constructor() { }
   
 
