@@ -1,0 +1,12 @@
+<div class="container">
+  <h1>QUOTES</h1>
+  <hr>
+  <ul>
+    <div *ngFor='let quote of quote; let i=index'><li>{{quote.author}}</li>
+      <button (click)='toggleDetails(i)'>View Info</button>
+      <app-quotes-detail *ngIf='quote.showQuote' [quote]='quote' (isComplete) = 'completeQuote($event,i)'></app-quotes-detail>
+    
+    </div>
+  </ul>
+
+</div>
