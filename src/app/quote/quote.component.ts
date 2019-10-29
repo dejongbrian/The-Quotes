@@ -37,6 +37,19 @@ export class QuoteComponent implements OnInit {
     quote.completeDate = new Date(quote.completeDate);
     this.quote.push(quote);
   }
+
+  voteBest(isupVote,index){
+    if (isupVote){
+      this.quote[index].upVote++
+    }
+  }
+  voteWorst(isdownVote,index){
+    if (isdownVote){
+      this.quote[index].downVote++
+    }
+  }
+ 
+ 
   constructor() { }
 
   ngOnInit() {
