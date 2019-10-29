@@ -1,6 +1,7 @@
 #container{
-  background-image: url('https://cdn.pixabay.com/photo/2017/10/09/14/25/football-2833550_960_720.jpg');
+  /* background-image: url('https://cdn.pixabay.com/photo/2017/10/09/14/25/football-2833550_960_720.jpg'); */
   background-size:cover;
+  background-color: #272121;
   background-repeat:no-repeat;
   font-family: 'ZCOOL XiaoWei', serif;
   text-align: center;
@@ -12,7 +13,7 @@
 #jum{
   background-size:cover;
   background-repeat:no-repeat;
-  background-image: url('https://cdn.pixabay.com/photo/2015/05/15/14/25/soccer-768482_960_720.jpg');
+  /* background-image: url('https://cdn.pixabay.com/photo/2015/05/15/14/25/soccer-768482_960_720.jpg'); */
   font-family: 'ZCOOL XiaoWei', serif;
   width:800px;
   text-align: center;
@@ -20,6 +21,7 @@
   color:white;
   font-size: 2em;
   opacity:0.8;
+  background-color: #443737;
 }
 #det{
   margin-left: 120px;
