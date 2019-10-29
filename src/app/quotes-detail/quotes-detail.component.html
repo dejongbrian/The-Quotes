@@ -2,7 +2,7 @@
   {{quote.name}} 
 </p>
 <p>Quoted on {{quote.completeDate|date|uppercase}}</p>
-<button (click)="upVote(true)" class="fa fa-arrow-circle-up fa-2x">Upvote</button>{{quote.upVote}}
+<button (click)="upVote(true)" class="btn btn-success">Upvote</button>{{quote.upVote}}
 <button (click)="downVote(true)" class="fa fa-arrow-circle-down fa-2x">Downvote</button>{{quote.downVote}}
 <!-- <ng-controller="MainCtrl">
     <i title="Up Votes" ng-click="changeVote(vote, 'up')" class="fa fa-arrow-circle-up fa-2x" ng-class="{true:'up', false:''}[vote=='up']"></i>
