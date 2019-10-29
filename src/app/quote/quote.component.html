@@ -8,6 +8,9 @@
   <div class="form-group col-md-6">
     <div *ngFor='let quote of quote; let i=index'>
       <h3>{{quote.author}}</h3>
+      <!-- <li>
+      Upvotes:{{quote.upVotes}}<br>
+    Downvotes:{{quote.downVote}}</li> -->
       <!-- <p>Quoted on {{quote.completeDate|date|uppercase}}</p> -->
      
      <div>
@@ -16,7 +19,7 @@
 
       <div *ngIf='quote.showQuote'>
        
-        <app-quotes-detail  [quote]='quote' (isComplete) = 'deleteQuote($event,i)'></app-quotes-detail>
+        <app-quotes-detail  [quote]='quote' (isComplete) = 'deleteQuote($event,i)' (isupVote)='voteBest($event,i)' (isdownVote)='voteWorst($event,i)'></app-quotes-detail>
         </div>
         
     
