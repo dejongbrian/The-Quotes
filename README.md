@@ -2,6 +2,26 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.12.
 
+# Project Name
+* Qoutes
+
+## Author
+* Brian Ochieng
+
+## Description
+* The App that lets you create your own personal quote.
+
+## Technologies Used
+* HTML
+* CSS
+* Angular
+* Bootstrap
+## Installation Process
+* Open the terminal.
+* Cd to angular.
+* cd to Quotes.
+* Input code . or atom . depending on the visual studio.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
