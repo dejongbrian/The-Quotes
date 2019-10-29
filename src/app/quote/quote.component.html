@@ -1,9 +1,11 @@
-<div class="container">
+ <div class="body">
+ <div class="jumbotron" id="jum">
   <h1>QUOTES</h1>
-  <hr>
-
-  <div class="row">
-  <div class="col-md-4">
+  <p>The App that lets you create your own personal quote.</p>
+</div>
+  <div class="container">
+  <div class="form-row" id="det">
+  <div class="form-group col-md-6">
     <div *ngFor='let quote of quote; let i=index'>
       <h3>{{quote.author}}</h3>
       <!-- <p>Quoted on {{quote.completeDate|date|uppercase}}</p> -->
@@ -21,7 +23,10 @@
       </div>
     </div>
   </div>
-  <div class="col-md-4">
+  <div class="form-row">
+  <div class=" form-group col-md-6" id="det">
       <app-quote-form  (addQuote)="addNewQuote($event)"></app-quote-form>
     </div>
+    
+</div>
 </div>

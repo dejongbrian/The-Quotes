@@ -1,7 +1,26 @@
 .container{
-  background-image: url('https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+  background-image: url('https://static.vecteezy.com/system/resources/previews/000/112/159/non_2x/blue-free-vector-watercolor-background.jpg');
   background-size:cover;
   background-repeat:no-repeat;
   font-family: 'ZCOOL XiaoWei', serif;
-  
+  text-align: center;
+  width:800px;
+
+}
+#jum{
+  background-image: url('https://static.vecteezy.com/system/resources/previews/000/112/159/non_2x/blue-free-vector-watercolor-background.jpg');
+  font-family: 'ZCOOL XiaoWei', serif;
+  width:800px;
+  text-align: center;
+  margin-left: 359px;
+  color:brown;
+  font-size: 2em;
+}
+#det{
+  margin-left: 120px;
+}
+.body{
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT-Ly-bD3W12EFyjxg4ubpYN05HZGmkaBU0oT-lReTU1K7frGts');
 }
