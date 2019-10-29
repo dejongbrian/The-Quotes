@@ -1,9 +1,11 @@
+ <div >
  <div class="body">
  <div class="jumbotron" id="jum">
   <h1>QUOTES</h1>
   <p>The App that lets you create your own personal quote.</p>
 </div>
-  <div class="container">
+
+  <div class="container"id="container">
   <div class="form-row" id="det">
   <div class="form-group col-md-6">
     <div *ngFor='let quote of quote; let i=index'>
@@ -31,5 +33,6 @@
       <app-quote-form  (addQuote)="addNewQuote($event)"></app-quote-form>
     </div>
     
+</div>
 </div>
 </div>
