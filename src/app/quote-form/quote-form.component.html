@@ -1,33 +1,32 @@
-
 <div class="container-fluid">
     <h2 class="text-center">Create Quote</h2>
     <hr>
     <form (ngSubmit)='submitQuote()' #quoteForm='ngForm'>
         <div class="form-group">
             <div class="form-group cl-md-4">
-  
-            <label for="name">Author</label>
-            <!-- <input type="text" required class="form-control"  [(ngModel)]="newQuote.name"   #name='ngModel'id="name"> -->
-            <input type="text" class="form-control" id="text" [(ngModel)]="newQuote.author" name="text"
-            #text='ngModel' >
-            <div [hidden]="name.valid || name.pristine" class="alert alert-danger">
-                <p>Name </p>
-              </div>
+
+                <label for="name">Author</label>
+                 <input type="text" required class="form-control"  [(ngModel)]="newQuote.name"   #name='ngModel'name="name"> 
+                <!-- <input type="name" class="form-control" id="name" [(ngModel)]="newQuote.author" name="name"
+                    #name='ngModel'> -->
+                <div [hidden]="name.valid || name.pristine" class="alert alert-danger">
+                    <p>Name </p>
+                </div>
+            </div>
+            <div class="form-group">
+
+                <label for="quote">Quote</label>
+                <textarea type="text" class="form-control" id="quote" [(ngModel)]="newQuote.quote" name="quote"
+                    #quote='ngModel'></textarea>
+                <!-- <textarea class="form-control" id="quote" rows="4" [(ngModel)]="newQuote.quote" name="quote" #quote="ngModel" required></textarea> -->
+                <div [hidden]="quote.valid || quote.pristine" class="alert alert-danger">
+                    <p>Quote</p>
+                </div>
+
+            </div>
+
+            <button type="submit" class="btn btn-success">Add Quote</button>
         </div>
-        <div class="form-group">
-  
-            <label for="quote">Quote</label>
-            <textarea type="name" class="form-control" id="name" [(ngModel)]="newQuote.name" name="name"
-                   #text='ngModel' ></textarea>
-            <!-- <textarea class="form-control" id="quote" rows="4" [(ngModel)]="newQuote.quote" name="quote" #quote="ngModel" required></textarea> -->
-            <div [hidden]="quote.valid || quote.pristine" class="alert alert-danger">
-                <p>Quote</p>
-              </div>
-              
-        </div>
-       
-        <button type="submit" class="btn btn-success">Add Quote</button>
-    </div>
 
     </form>
-  </div>
+</div>
