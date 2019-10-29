@@ -16,11 +16,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 * CSS
 * Angular
 * Bootstrap
+
 ## Installation Process
-* Open the terminal.
-* Cd to angular.
-* cd to Quotes.
-* Input code . or atom . depending on the visual studio.
+* Open the terminal..
+* Cd to Quotes.
+* Input code . to open  visual studio.
 
 ## Development server
 
